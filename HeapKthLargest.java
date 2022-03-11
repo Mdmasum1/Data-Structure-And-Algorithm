@@ -10,6 +10,8 @@ public class HeapKthLargest {
             return -1;
         }
 
+        //Initialize MinHeap of PriorityQueue
+
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
         for(int i = 0; i < k; i++) {
@@ -30,6 +32,8 @@ public class HeapKthLargest {
         if(arr.length < k) {
             return -1;
         }
+
+        //Initialize MaxHeap of PriorityQueue
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 
