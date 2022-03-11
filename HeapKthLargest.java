@@ -50,7 +50,7 @@ public class HeapKthLargest {
 
     public static void main(String[] args) {
 
-        int[] arr = {10, 7, 11, 30, 20, 38, 2, 45};
+        int[] arr = {4, 7, 21, 31, 20, 28, 2, 35};
         int k = 3;
 
         System.out.println(HeapKthLargest.kthLarEleMinHeap(arr, k));
